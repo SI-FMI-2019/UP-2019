@@ -1,4 +1,4 @@
-# Introduction to Programming Notes
+# Introduction to Programming tl;dr Edition
 
 ## Introduction
 
