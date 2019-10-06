@@ -27,7 +27,7 @@
 1. Ask the user for two numbers - the side of a triangle and the height of the triangle. Print the area of the triangle.
 2. Calculate the circumference of a circle with radius `0.159154943`, knowing that `Pi = 3.141592654`.
 3. Calculate the face of a circle with radius `0.564189584`. Before printing the result include the library `<iomanip>` and write `cout << setprecision(10);`.
-4. Prompt the user for their age and print how many seconds have passed since their birth. e.g if the user is 1 year old it would be `1 * 365 * 24 * 60 * 60`. 
+4. Prompt the user for their age and print how many seconds have passed since their birth. e.g. if the user is 1 year old it would be `1 * 365 * 24 * 60 * 60`. 
 5. Calculate the roots of `x^2-130x-4056`.
 
 ## Functions
@@ -58,8 +58,8 @@
 4. Prompt the user to enter **20 numbers** and print the largest of them.
 5. Write a function which takes **a char** and prints on the console if it is a letter, number or other symbol.
 6. Write a function which takes in **a char** and returns its hex value if it’s a valid digit `{ 0-9, A-F }`.
-7. Write a function which takes **an int** from 1 to 7 and prints the weekday as a string on the console. e.g `printDay(1);` outputs `Monday`.
-8. Write a function which takes an enum `WeekDay` and prints the weekday as a string on the console. e.g `printDay(Monday);` outputs `Monday`.
+7. Write a function which takes **an int** from 1 to 7 and prints the weekday as a string on the console. e.g. `printDay(1);` outputs `Monday`.
+8. Write a function which takes an enum `WeekDay` and prints the weekday as a string on the console. e.g. `printDay(Monday);` outputs `Monday`.
 
 ## Loops
 
@@ -105,7 +105,7 @@
 5. Write a function which takes **an in** as a parameter and prints on the console **all its divisors**.
 6. Write a function which takes **an int** as a parameter and finds **how many digits** it has.
 7. Write a function to calculate the `N`th Fibonacci number where `N` is the parameter of the function.
-8. Write a function which takes **2 int parameters** - Base and Power and calculates $Base^{Power}$ . e.g `pow(2, 10)` returns `1024`.
+8. Write a function which takes **2 int parameters** - Base and Power and calculates $Base^{Power}$ . e.g. `pow(2, 10)` returns `1024`.
 
 ## Recursion (Double recursion)
 
@@ -122,8 +122,15 @@
 
 ## Pointers
 
-1. Create a variable `D` with value `420`. Create another variable `X` of the same type. Create a pointer to the variable `X`. Try to find the address of `D` by moving the pointer around.
-2. Determine if your machine is using little or big endianness.
+1. Create a variable `A` with value `12`. Create a pointer to `A` and use it to change the value of `A`. Print the pointer and the value of the changed `A`.
+2. Create an **array of 100 elements**. Use **pointer arithmetic** to **change the 57th element to 70**.
+3. Create an **array of 4 elements**. Use a pointer to iterate and print the array elements. Try to print elements outside of the array.
+4. Create a pointer to a static object and a pointer to a dynamic object. Print the 2 addresses and compare them.
+5. Write a function which takes **2 int pointer parameters** and adds the values they point to. The function returns the sum.
+6. Write a function which takes **2 int pointer parameters**. The function multiplies the 2 numbers and stores the value in the address pointed by the first pointer.
+7. Create a variable `A = 12`. Make a pointer `B` pointing to `A`. Make a pointer `C` pointing to `B`. Using `C` change the value of `A`.
+8. Create a variable `D` with value `420`. Create another variable `X` of the same type. Create a pointer to the variable `X`. Try to find the address of `D` by moving the pointer around.
+9. Determine if your machine is using little or big endianness.
 
 ## Strings
 
@@ -136,14 +143,14 @@
 7. Write a function which takes **a string** and determines if it is a **palindrome**. A palindrome is a string which is **read the same way forwards and backwards**.
 8. Write a function which takes in a **string** and prints what characters we need to add to the end of the string for it to become a palindrome.
 9. Write a function which converts a **binary string** (composed from 0s and 1s) to a **decimal number**.
-10. Write a function which converts an **int** to a **binary number** as a string (reversed), e.g `convertToBinary(13)` returns `“1011”`.
+10. Write a function which converts an **int** to a **binary number** as a string (reversed), e.g. `convertToBinary(13)` returns `“1011”`.
 11. Write a **recursive function** which prints the **binary representation** of a **number in reverse****.
 
-## Arrays (One dimensional with arbitary size)
+## Arrays (One dimensional with arbitrary size)
 
-1. Write a function which accepts **an array of integers** of arbitary size and makes all the integers negative. (Hint: the function must also accept the size of the array. Array and pointer here are interchangeable)
-2. Write a function which takes **an array** (pointer), its size and element we are looking for and retuns the **index at which that element is found** in the array or -1 if the array doesn’t have such element.
-3. Write a function which accepts **an array of chars** with arbitary size and returns the **sum of all the elements**.
+1. Write a function which accepts **an array of integers** of arbitrary size and makes all the integers negative. (Hint: the function must also accept the size of the array. Array and pointer here are interchangeable)
+2. Write a function which takes **an array** (pointer), its size and element we are looking for and returns the **index at which that element is found** in the array or -1 if the array doesn’t have such element.
+3. Write a function which accepts **an array of chars** with arbitrary size and returns the **sum of all the elements**.
 4. Write a function which takes **an array of ints** and outputs **all the even numbers** on the console.
 5. Write a function which takes **an array of chars** and calculates the **average of all odd numbers**.
 6. Write a function which takes **an array of ints** and **reverses** it in place.
@@ -156,4 +163,8 @@
 3. Create a struct representing 5x5 matrix. Write a method to transpose the matrix.
 4. Create a struct representing a `NxN` matrix where N is specified by the user. Write a method which calculates the sum of each row and prints it to the console.
 
+## Preprocessor
+
+1. Write a function which takes a variable and prints its name.
+2. Write a function `max(a, b)` which returns the max of 2 variables.
 
