@@ -30,15 +30,6 @@
 4. Prompt the user for their age and print how many seconds have passed since their birth. e.g if the user is 1 year old it would be `1 * 365 * 24 * 60 * 60`. 
 5. Calculate the roots of `x^2-130x-4056`.
 
-## Functions
-
-1. Write a function which prints `Hello, world!`.
-2. Write a function which has **1 int parameter** and prints that parameter to the console.
-3. Write a function which calculates the **sum of 2 ints**.
-4. Write a function which calculates the **product of 2 chars**.
-5. Write a function which calculates the **real roots** of a **quadratic equation** of the form `a*x^2 + b*x + c = 0`. The function takes **3 parameters** - `a, b, c`.
-6. Write a function which accepts **4 coordinates** in the form `(x1, y1, x2, y2)` and calculates the distance between the points with coordinates `(x1, y1)` and `(x2, y2)`.
-
 ## Variables (Advanced)
 
 1. Create 2 variables, assign them values. Swap the values of the variables. Print the swapped values.
@@ -47,37 +38,59 @@
 4. Find the maximum value of `unsigned int`.
 5. Create a variable with value `325`. Print the variable as a char.
 6. Create a variable holding the letter `E`. Print the variable as an int.
-7. Write a function which **reverses a number**.
-8. Write a function which **prints all the digits** of a number on new lines.
 
 ## Conditionals
 
 1. Prompt the user for **3 numbers** and print them in increasing order.
-2. Write a function which takes **an int** representing a year as a parameter and returns whether it’s a leap year. e.g `2004` returns `true`, `2003` returns `false`.
-3. Write a function which takes **an int** representing a month (1 = Jan, 12 = Dec) and returns the number of days it has.
+
+2. Write a program which takes **an int** representing a year as a parameter and returns whether it’s a leap year. e.g `2004` returns `true`, `2003` returns `false`.
+
+3. Write a program which takes **an int** representing a month (1 = Jan, 12 = Dec) and returns the number of days it has.
+
 4. Prompt the user to enter **20 numbers** and print the largest of them.
-5. Write a function which takes **a char** and prints on the console if it is a letter, number or other symbol.
-6. Write a function which takes in **a char** and returns its hex value if it’s a valid digit `{ 0-9, A-F }`.
-7. Write a function which takes **an int** from 1 to 7 and prints the weekday as a string on the console. e.g `printDay(1);` outputs `Monday`.
-8. Write a function which takes an enum `WeekDay` and prints the weekday as a string on the console. e.g `printDay(Monday);` outputs `Monday`.
+
+5. Write a program which takes **a char** and prints on the console if it is a letter, number or other symbol.
+
+6. Write a program which takes in **a char** and returns its hex value if it’s a valid digit `{ 0-9, A-F }`.
+
+7. Write a program which takes **an int** from 1 to 7 and prints the weekday as a string on the console. e.g `printDay(1);` outputs `Monday`.
+
+8. Write a program which takes an enum `WeekDay` and prints the weekday as a string on the console. e.g `printDay(Monday);` outputs `Monday`.
+
+9. Write a small calculator, in which the user enters two numbers, then enters a symbol (`+`, `-`, `*`, `/`, `%`). The program prints the result of the expression based on the symbol entered. 
+
+10. Write a program, in which the user enters a number, and the program spells it with words:
+
+    Example:
+
+    ```
+    Input: 10
+    Output: Ten
+    Input: 123
+    Output: One hundred and twenty-five
+    Input: 1234
+    Output: One thousand two hundred and thirty-four
+    ```
+
+    
 
 ## Loops
 
 1. Print the numbers from **1 to 1000** on new lines.
 
-2. Write a function to compute **factorial**.
+2. Write a program to compute **factorial**.
 
 3. Prompt the user to enter **a number** `N` and print on the console all odd numbers between 0 and `N`.
 
-4. Write a function which finds **how many digits** a number has.
+4. Write a program which finds **how many digits** a number has.
 
-5. Write a function which takes **an int** as a parameter and prints **all of its divisors**.
+5. Write a program which takes **an int** as a parameter and prints **all of its divisors**.
 
-6. Write a function to calculate the `N`th **Fibonacci number** where `N` is the parameter of the function.
+6. Write a program to calculate the `N`th **Fibonacci number** where `N` is the parameter of the function.
 
-7. Write a function which given 2 numbers `N` and `K` computes the binomial coefficient ${N\choose K} = {N!\over K!(N-K)!}$
+7. Write a program which given 2 numbers `N` and `K` computes the binomial coefficient ${N\choose K} = {N!\over K!(N-K)!}$
 
-8. Write a function which takes **an int** `N` and prints a pyramid of numbers from 1 to `N`, as the first row has 1 number, 2nd has 2 numbers and so on until we reach the number `N`. The last row may not obey the stated rule.
+8. Write a program which takes **an int** `N` and prints a pyramid of numbers from 1 to `N`, as the first row has 1 number, 2nd has 2 numbers and so on until we reach the number `N`. The last row may not obey the stated rule.
 
    e.g  `printPyramid(12);`
 
@@ -89,29 +102,16 @@
    11 12
    ```
 
-## Structs
+## Functions
 
-1. Create a struct representing a **point with 2 integer coordinates**. Write a function which finds the **distance** between 2 points.
-2. Create a struct representing **a point with 2 float coordinates**. Write a function which finds the **distance** between 2 points.
-3. Create a struct representing a **linear equation** of the form `y = A * x + B`. Expand the struct to support the line `x = 2` for example. Write a method that takes a point and returns if the point lies on the line.
-4. Create a struct representing a **vector**. A vector is defined with 2 points, a start and end point.
-
-## Recursion
-
-1. Print the numbers from **1 to 100** on the console in **ascending order**.
-2. Print the even numbers from **100 to 5** on the console in **descending order**.
-3. Write a function to **compute factorial**.
-4. Write a function which takes **1 int parameter**. The function calculates the **sum** of all numbers **between 0 and the parameter**.
-5. Write a function which takes **an in** as a parameter and prints on the console **all its divisors**.
-6. Write a function which takes **an int** as a parameter and finds **how many digits** it has.
-7. Write a function to calculate the `N`th Fibonacci number where `N` is the parameter of the function.
-8. Write a function which takes **2 int parameters** - Base and Power and calculates $Base^{Power}$ . e.g `pow(2, 10)` returns `1024`.
-
-## Recursion (Double recursion)
-
-1. Write a program which generates a random number between 1 and 100 and prompts the user to guess the number. The program tells the user if he guessed bigger, smaller or the exact number.
-2. Print all possible numbers with up to 5 digits containing the numbers `1,2`.
-3. Write a recursive function which takes an int array and a number `N`. The function prints all possible combinations of `N` elements of the given array.
+1. Write a function which prints `Hello, world!`.
+2. Write a function which has **1 int parameter** and prints that parameter to the console.
+3. Write a function which calculates the **sum of 2 ints**.
+4. Write a function which calculates the **product of 2 chars**.
+5. Write a function which calculates the **real roots** of a **quadratic equation** of the form `a*x^2 + b*x + c = 0`. The function takes **3 parameters** - `a, b, c`.
+6. Write a function which accepts **4 coordinates** in the form `(x1, y1, x2, y2)` and calculates the distance between the points with coordinates `(x1, y1)` and `(x2, y2)`.
+7. Write a function which **reverses a number**.
+8. Write a function which **prints all the digits** of a number on new lines.
 
 ## Arrays (Fixed size)
 
@@ -155,5 +155,29 @@
 2. Create a struct representing a 3x3 matrix. Write a method to add two matrices.
 3. Create a struct representing 5x5 matrix. Write a method to transpose the matrix.
 4. Create a struct representing a `NxN` matrix where N is specified by the user. Write a method which calculates the sum of each row and prints it to the console.
+
+## Structs
+
+1. Create a struct representing a **point with 2 integer coordinates**. Write a function which finds the **distance** between 2 points.
+2. Create a struct representing **a point with 2 float coordinates**. Write a function which finds the **distance** between 2 points.
+3. Create a struct representing a **linear equation** of the form `y = A * x + B`. Expand the struct to support the line `x = 2` for example. Write a method that takes a point and returns if the point lies on the line.
+4. Create a struct representing a **vector**. A vector is defined with 2 points, a start and end point.
+
+## Recursion
+
+1. Print the numbers from **1 to 100** on the console in **ascending order**.
+2. Print the even numbers from **100 to 5** on the console in **descending order**.
+3. Write a function to **compute factorial**.
+4. Write a function which takes **1 int parameter**. The function calculates the **sum** of all numbers **between 0 and the parameter**.
+5. Write a function which takes **an in** as a parameter and prints on the console **all its divisors**.
+6. Write a function which takes **an int** as a parameter and finds **how many digits** it has.
+7. Write a function to calculate the `N`th Fibonacci number where `N` is the parameter of the function.
+8. Write a function which takes **2 int parameters** - Base and Power and calculates $Base^{Power}$ . e.g `pow(2, 10)` returns `1024`.
+
+## Recursion (Double recursion)
+
+1. Write a program which generates a random number between 1 and 100 and prompts the user to guess the number. The program tells the user if he guessed bigger, smaller or the exact number.
+2. Print all possible numbers with up to 5 digits containing the numbers `1,2`.
+3. Write a recursive function which takes an int array and a number `N`. The function prints all possible combinations of `N` elements of the given array.
 
 
