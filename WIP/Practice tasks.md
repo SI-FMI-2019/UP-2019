@@ -51,7 +51,7 @@
 
 5. Write a program which takes **a char** and prints on the console if it is a letter, number or other symbol.
 
-6. Write a program which takes in **a char** and returns its hex value if it’s a valid digit `{ 0-9, A-F }`.
+6. Write a program which takes in **a char** representing a hex digit `{ 0-9, A-F }` and prints its decimal value if it’s a valid digit. e.g for input `3` print `3`, for input `A` print `10`.
 
 7. Write a program which takes **an int** from 1 to 7 and prints the weekday as a string on the console. e.g `printDay(1);` outputs `Monday`.
 
