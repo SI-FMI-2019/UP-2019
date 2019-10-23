@@ -101,6 +101,14 @@
    7 8 9 10
    11 12
    ```
+   
+   
+   
+9.  Write a program to calculate the n-th element of the series (1) + (1+2) + (1+2+3) + (1+2+3+4) + ... + (1+2+3+4+...+n).
+
+10. Write a program in C++ to display the n-th element sum of the series [ 9 + 99 + 999 + 9999 ...]
+
+   
 
 ## Functions
 
