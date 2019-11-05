@@ -6,18 +6,21 @@ using namespace std;
 int SafetyInputInteger(int lowerBound, int upperBound)
 {
     int intNumber;
+    bool success;
 
     do {
         cout<<"Input a number: ";
         cin>> intNumber;
+        cout<<endl<<intNumber<<endl;
 
-        if(cin.fail())
+        success = !cin.fail();
+
+        if(!success)
         {
             cin.clear();
             cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-            continue;
         }
-    } while ((intNumber < lowerBound) || (intNumber > upperBound));
+    } while (!success || (intNumber < lowerBound) || (intNumber > upperBound));
 
     return intNumber;
 }
@@ -28,7 +31,7 @@ int main()
 
 
     int height;
-    height=SafetyInputInteger(1,25);
+    height=SafetyInputInteger(-2147483648,25);
     cout<< "Height is "<<height<<endl;
 
 
