@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1572942736 source:c:\users\grade\documents\si-up-5\findthedigit\main.cpp
+	<iostream>
+	<iomanip>
+
