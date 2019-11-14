@@ -106,9 +106,7 @@
    
 9.  Write a program to calculate the n-th element of the series (1) + (1+2) + (1+2+3) + (1+2+3+4) + ... + (1+2+3+4+...+n).
 
-10. Write a program in C++ to display the n-th element sum of the series [ 9 + 99 + 999 + 9999 ...]
-
-   
+10. Write a program in C++ to display the n-th element sum of the series [ 9 + 99 + 999 + 9999 ...]   
 
 ## Functions
 
@@ -120,6 +118,8 @@
 6. Write a function which accepts **4 coordinates** in the form `(x1, y1, x2, y2)` and calculates the distance between the points with coordinates `(x1, y1)` and `(x2, y2)`.
 7. Write a function which **reverses a number**.
 8. Write a function which **prints all the digits** of a number on new lines.
+9. Write a function that returns the **area** of a triangle.
+10. Write a function that returns the **digital root** of a number (*digital root is the value obtained by iteratively summing the digits of a number*). Example - `123 -> 1 + 2 + 3 = 6`, `7685 -> 7 + 6 + 8 + 5 = 26 -> 2 + 6 = 8`
 
 ## Arrays (Fixed size)
 
@@ -127,6 +127,10 @@
 2. Create an array with **100 ints** from 1 to 100. Divide each element of the array by 2 and print the array.
 3. Write a function which accepts an **array of ints with 5 elements** and subtracts 1 from each element.
 4. Write a function which accepts **2 arrays of integers with 3 elements** and adds the elements of the second array to the  first. As a result `arrayOneProcessed[i] = arrayOne[i] + arrayTwo[i]`.
+5. Create an array with **10 ints**, which the user enters and return the minimum, maximum and average value
+6. Write a function that accepts **two arrays of ints, each with 5 elements** and multiplies the elements the elements from both arrays
+7. Write a function that **reverses an array of ints that has 5 elements**
+8. Write a function that takes an **array with 5 doubles**. Print the difference between each element and the average of the rest. *Example: `1 2 3 4 5` -> `-2.5 (1 - 3.5), -1.25 (2 - 3.25), 0 (3 -3), 1.25 (4 - 2.75), 2.5 (5 - 2.5)` 
 
 ## Pointers
 
