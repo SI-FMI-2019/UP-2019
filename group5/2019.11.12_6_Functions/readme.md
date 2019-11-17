@@ -2,7 +2,8 @@
 
 ### Дефиниция за функция
 
-``` return_type function_name (args)
+``` 
+return_type function_name (args)
 {
   // Code/ body of function
   return variable (of return_type);
@@ -77,26 +78,6 @@ int main()
   multiply(x,y);
   
   multi = 40;
-}
-```
-
-### Pure functions
-
-Лош пример за функция, която не е pure.
-```
-int changeX(int change)
-{
-  change = change + 5;
-  return change;
-}
-
-int main()
-{
-  int x = 5;
-  cout<<"X is"<< x;
-  changeX(x);
-  cout<<"X is"<< x;
-  
 }
 ```
 
