@@ -9,7 +9,7 @@
  */
 
 //Функцията трябва да е void, а принтирането е казано да е в main - т.е. се иска да се променя входния параметър.
-void get_average_from_digits(int& number)
+void get_average_from_digits(unsigned int& number)
 {
     int sum = 0;
     int length = log10(number);
